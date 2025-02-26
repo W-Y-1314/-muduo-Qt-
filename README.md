@@ -13,13 +13,15 @@
 
 ### 前端QT
 
-![1740491971368](assets/1740491971368.png)
+![1740491971368](https://github.com/user-attachments/assets/a1a6ced5-7c2d-4466-9b45-0dbb562c028b)
+
 
 
 
 ### 服务器实现
 
-![1740492059355](assets/1740492059355.png)
+![1740492059355](https://github.com/user-attachments/assets/c3da22ed-f1e5-4433-8e19-2733095ee58d)
+
 
 
 
@@ -124,7 +126,8 @@ private:
 
 实体、属性：
 
-![1737985638008](assets/1737985638008.png)
+![1740492059355](https://github.com/user-attachments/assets/9f2b366b-ba5f-40df-b2bc-2ec7cf67f0ac)
+
 
 ==其中==：
 
@@ -200,11 +203,13 @@ private:
 
 ==登录页面==
 
-![1740491168762](assets/1740491168762.png)
+![1740492059355](https://github.com/user-attachments/assets/6b1e4bb4-03a9-4b70-acb9-5b700f780328)
+
 
 ==聊天页面==
 
-![1740491185042](assets/1740491185042.png)
+![1740492059355](https://github.com/user-attachments/assets/538efe3b-a267-43f4-9115-cb76f02c1b2d)
+
 
 
 
@@ -215,7 +220,8 @@ private:
 - 如果该好友发了离线消息，则会显示
 - 可以不同好友之间的聊天，点击不同好友即可
 
-![1740382638406](assets/1740382638406.png)
+![1740492059355](https://github.com/user-attachments/assets/d05c08c4-dda0-4661-890a-1aa2cd854234)
+
 
 ==群聊天原理基本一致。==
 
@@ -225,7 +231,8 @@ private:
 
 前端难点在于这里：
 
-![1740491591104](assets/1740491591104.png)
+![1740492059355](https://github.com/user-attachments/assets/2a41648a-df92-44a0-9d0e-661109116a2a)
+
 
 在`main`函数中开启线程，持续接受客户端消息：
 
@@ -303,19 +310,22 @@ void recvMessage(int cfd)
 
 这里采用`ngnix`进行进行集群操作。
 
-![1740388763144](assets/1740388763144.png)
+![1740388763144](https://github.com/user-attachments/assets/70d62e61-4692-479a-a4ad-49076851ef81)
+
 
 
 
 ==尝试：==
 
-![1740390031337](assets/1740390031337.png)
+![1740388763144](https://github.com/user-attachments/assets/0f50fb81-0d20-4631-bb3a-1f629d5b4fb5)
+
 
 
 
 ==原理如下图所示==：
+![1740388763144](https://github.com/user-attachments/assets/30e7697d-efe3-49b1-a926-82e19c4fdd09)
 
-![1740488946339](assets/1740488946339.png)
+
 
 
 
@@ -323,7 +333,8 @@ void recvMessage(int cfd)
 
 场景描述：当我们客户端连接服务器的时候，首先是到负载均衡器中，由负载均衡器分配给不同服务器，但这个时候就有一个问题，A用户发信息给B用户，但是A、B用户在不同服务器，如何进行转发消息呢？ 这里采用**消息队列**进行解决这个问题，如图所示：
 
-![1740390556278](assets/1740390556278.png)
+![1740388763144](https://github.com/user-attachments/assets/fb1ece9e-3842-48a0-a273-4b2abe25fd8b)
+
 
 这里采用`Redis`的**发布-订阅模式作为本项目的消息队列**，当然还可以用`kafka等`。
 
@@ -333,18 +344,17 @@ void recvMessage(int cfd)
 
 ## 过程一部分截图
 
-![1738070291212](assets/1738070291212.png)
+![1738762639150](https://github.com/user-attachments/assets/4ab532af-36f2-482f-8699-de40a581340e)
+![1738078993570](https://github.com/user-attachments/assets/b2d941bf-18fb-4245-80c3-0f647a0e37c6)
+![1738078993570](https://github.com/user-attachments/assets/99e02bfa-b9b5-44cb-ab59-1c70d6c202e4)
+![1738078993570](https://github.com/user-attachments/assets/a3c99966-627d-4988-9919-038221eaec86)
+![1738078993570](https://github.com/user-attachments/assets/46301e4e-b224-4d50-9212-02bf8f81de21)
+![1738078993570](https://github.com/user-attachments/assets/8cf6e08a-b605-469f-b09c-0c853285e1ae)
+![1738078993570](https://github.com/user-attachments/assets/943eaee0-3ea5-4999-8fcb-c9b347468fce)
 
-![1738078993570](assets/1738078993570.png)
 
-![1738138665829](assets/1738138665829.png)
 
-![1738386421515](assets/1738386421515.png)
 
-![1738393135546](assets/1738393135546.png)
 
-![1738762574862](assets/1738762574862.png)
 
-![1738762610264](assets/1738762610264.png)
 
-![1738762639150](assets/1738762639150.png)
