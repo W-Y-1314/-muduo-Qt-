@@ -126,7 +126,8 @@ private:
 
 实体、属性：
 
-![1740492059355](https://github.com/user-attachments/assets/9f2b366b-ba5f-40df-b2bc-2ec7cf67f0ac)
+![1737985638008](https://github.com/user-attachments/assets/11389824-f7d1-4fcc-8c51-5db66e66fa56)
+
 
 
 ==其中==：
@@ -203,12 +204,14 @@ private:
 
 ==登录页面==
 
-![1740492059355](https://github.com/user-attachments/assets/6b1e4bb4-03a9-4b70-acb9-5b700f780328)
+![1740491168762](https://github.com/user-attachments/assets/eee8b634-290a-447b-9bf7-0852eb1fcc55)
+
 
 
 ==聊天页面==
 
-![1740492059355](https://github.com/user-attachments/assets/538efe3b-a267-43f4-9115-cb76f02c1b2d)
+![1740491185042](https://github.com/user-attachments/assets/0171b552-b11a-4651-a583-ca905fcf6fa8)
+
 
 
 
@@ -220,7 +223,8 @@ private:
 - 如果该好友发了离线消息，则会显示
 - 可以不同好友之间的聊天，点击不同好友即可
 
-![1740492059355](https://github.com/user-attachments/assets/d05c08c4-dda0-4661-890a-1aa2cd854234)
+![1740382638406](https://github.com/user-attachments/assets/831d9d00-de30-4bc5-9f84-c9dac48aab8a)
+
 
 
 ==群聊天原理基本一致。==
@@ -231,7 +235,8 @@ private:
 
 前端难点在于这里：
 
-![1740492059355](https://github.com/user-attachments/assets/2a41648a-df92-44a0-9d0e-661109116a2a)
+![1740491591104](https://github.com/user-attachments/assets/e9d8f039-8505-4a14-9595-08139605190b)
+
 
 
 在`main`函数中开启线程，持续接受客户端消息：
@@ -317,13 +322,15 @@ void recvMessage(int cfd)
 
 ==尝试：==
 
-![1740388763144](https://github.com/user-attachments/assets/0f50fb81-0d20-4631-bb3a-1f629d5b4fb5)
+![1740390031337](https://github.com/user-attachments/assets/b2e622c1-6f2b-41a8-bb37-21edf976f5d0)
+
 
 
 
 
 ==原理如下图所示==：
-![1740388763144](https://github.com/user-attachments/assets/30e7697d-efe3-49b1-a926-82e19c4fdd09)
+![1740488946339](https://github.com/user-attachments/assets/215fc6dc-a309-4bbd-98a4-ba2e6769e482)
+
 
 
 
@@ -333,7 +340,8 @@ void recvMessage(int cfd)
 
 场景描述：当我们客户端连接服务器的时候，首先是到负载均衡器中，由负载均衡器分配给不同服务器，但这个时候就有一个问题，A用户发信息给B用户，但是A、B用户在不同服务器，如何进行转发消息呢？ 这里采用**消息队列**进行解决这个问题，如图所示：
 
-![1740388763144](https://github.com/user-attachments/assets/fb1ece9e-3842-48a0-a273-4b2abe25fd8b)
+![1740390556278](https://github.com/user-attachments/assets/f1c1c00b-b027-41ad-ba9f-5b4cb9fe79f2)
+
 
 
 这里采用`Redis`的**发布-订阅模式作为本项目的消息队列**，当然还可以用`kafka等`。
