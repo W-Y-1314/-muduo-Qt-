@@ -12,13 +12,15 @@
 
 ### 前端QT
 
-![1740491971368](assets/1740491971368.png)
+![1740491971368](https://github.com/user-attachments/assets/b6970695-fea8-4549-82a6-c9fd0f3250bd)
+
 
 
 
 ### 服务器实现
 
-![1740492059355](assets/1740492059355.png)
+![1740492059355](https://github.com/user-attachments/assets/b1a7be36-1047-457c-b399-3a0980325c71)
+
 
 
 
