@@ -1,0 +1,79 @@
+﻿QPushButton#closeBtn {
+    border:none;
+    background-image:url(:/Resource/close.png);
+    width:32px;
+    height:32px;
+}
+
+QPushButton#closeBtn:hover {
+    background-image:url(:/Resource/close-hover.png);
+}
+
+/* 登录 */
+QLineEdit {
+    border: none;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    height: 40px;
+    font-size: 12pt;
+}
+
+QLineEdit:hover {
+    border-color: rgb(127, 127, 127);
+}
+
+QCheckBox {
+    color: rgb(127, 127, 127);
+}
+
+QPushButton#goRegBtn {
+    border: none;
+    color: rgb(127, 127, 127);
+}
+
+QPushButton#goRegBtn:hover {
+    color: rgb(110, 110, 110);
+}
+
+QPushButton#loginBtn {
+    border: none;
+    border-radius: 5px;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(11,194,255), stop:1 rgb(0,182,250));
+    color: white;
+    height: 30px;
+    font-size: 12pt;
+}
+
+QPushButton#loginBtn:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(34,203,255), stop:1 rgb(26,194,251));
+}
+
+/*注册*/
+QPushButton#regBtn, QPushButton#goLoginBtn
+{
+    border:none;
+    height:30px;
+    color:white;
+    font-size:12pt;
+}
+
+QPushButton#regBtn
+{
+    width:120px;
+    background-color:rgb(90, 210, 85);
+    border-top-left-radius:5px;
+}
+
+QPushButton#regBtn:hover
+{
+    background-color:rgb(90, 210, 120);
+}
+
+QPushButton#goLoginBtn
+{
+    background-color:rgb(39, 178, 239);
+    border-bottom-right-radius:5px;
+}
+QPushButton#goLoginBtn:hover
+{
+    background-color:rgb(26,194,251);
+}

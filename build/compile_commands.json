@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/chatServer.cpp.o -c /home/wy/project/chatServer/src/server/chatServer.cpp",
+  "file": "/home/wy/project/chatServer/src/server/chatServer.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/chatService.cpp.o -c /home/wy/project/chatServer/src/server/chatService.cpp",
+  "file": "/home/wy/project/chatServer/src/server/chatService.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/wy/project/chatServer/src/server/main.cpp",
+  "file": "/home/wy/project/chatServer/src/server/main.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/db/connection.cpp.o -c /home/wy/project/chatServer/src/server/db/connection.cpp",
+  "file": "/home/wy/project/chatServer/src/server/db/connection.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o -c /home/wy/project/chatServer/src/server/db/dbConnectionPool.cpp",
+  "file": "/home/wy/project/chatServer/src/server/db/dbConnectionPool.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/friendModel.cpp.o -c /home/wy/project/chatServer/src/server/model/friendModel.cpp",
+  "file": "/home/wy/project/chatServer/src/server/model/friendModel.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/groupModel.cpp.o -c /home/wy/project/chatServer/src/server/model/groupModel.cpp",
+  "file": "/home/wy/project/chatServer/src/server/model/groupModel.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/offlineMessModel.cpp.o -c /home/wy/project/chatServer/src/server/model/offlineMessModel.cpp",
+  "file": "/home/wy/project/chatServer/src/server/model/offlineMessModel.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/userModel.cpp.o -c /home/wy/project/chatServer/src/server/model/userModel.cpp",
+  "file": "/home/wy/project/chatServer/src/server/model/userModel.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/server",
+  "command": "/usr/bin/g++-13  -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/wy/project/chatServer/src/server/redis/redis.cpp",
+  "file": "/home/wy/project/chatServer/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/chatClient_autogen/mocs_compilation.cpp.o -c /home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/mocs_compilation.cpp",
+  "file": "/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/main.cpp.o -c /home/wy/project/chatServer/src/qtClient/main.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/main.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/LoginResDlg.cpp.o -c /home/wy/project/chatServer/src/qtClient/LoginResDlg.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/LoginResDlg.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/EventFilterObject.cpp.o -c /home/wy/project/chatServer/src/qtClient/EventFilterObject.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/EventFilterObject.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/storeMess.cpp.o -c /home/wy/project/chatServer/src/qtClient/storeMess.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/storeMess.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/ChatWindow.cpp.o -c /home/wy/project/chatServer/src/qtClient/ChatWindow.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/ChatWindow.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/ChatBubble.cpp.o -c /home/wy/project/chatServer/src/qtClient/ChatBubble.cpp",
+  "file": "/home/wy/project/chatServer/src/qtClient/ChatBubble.cpp"
+},
+{
+  "directory": "/home/wy/project/chatServer/build/src/qtClient",
+  "command": "/usr/bin/g++-13 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include -I/home/wy/project/chatServer/include -I/home/wy/project/chatServer/include/server -I/home/wy/project/chatServer/include/server/db -I/home/wy/project/chatServer/include/server/model -I/home/wy/project/chatServer/include/server/redis -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/wy/Qt/6.5.3/gcc_64/include -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/wy/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/wy/Qt/6.5.3/gcc_64/include/QtGui -g -g -fPIC -std=gnu++17 -o CMakeFiles/chatClient.dir/chatClient_autogen/EWIEGA46WW/qrc_Resource.cpp.o -c /home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/EWIEGA46WW/qrc_Resource.cpp",
+  "file": "/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/EWIEGA46WW/qrc_Resource.cpp"
+}
+]

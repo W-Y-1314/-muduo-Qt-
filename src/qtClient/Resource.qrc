@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/cai.png</file>
+        <file>Resource/check.png</file>
+        <file>Resource/close-hover.png</file>
+        <file>Resource/close.png</file>
+        <file>Resource/down-arrow.png</file>
+        <file>Resource/dream.png</file>
+        <file>Resource/uncheck.png</file>
+        <file>Resource/style.css</file>
+    </qresource>
+</RCC>

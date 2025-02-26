@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen",
+	"CMAKE_BINARY_DIR" : "/home/wy/project/chatServer/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/wy/project/chatServer/build/src/qtClient",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/wy/project/chatServer/src/qtClient",
+	"CMAKE_SOURCE_DIR" : "/home/wy/project/chatServer",
+	"INCLUDE_DIR" : "/home/wy/project/chatServer/build/src/qtClient/chatClient_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/wy/project/chatServer/src/qtClient/Resource/down-arrow.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/cai.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/check.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/dream.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/close-hover.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/style.css",
+		"/home/wy/project/chatServer/src/qtClient/Resource/uncheck.png",
+		"/home/wy/project/chatServer/src/qtClient/Resource/close.png"
+	],
+	"LOCK_FILE" : "/home/wy/project/chatServer/build/src/qtClient/CMakeFiles/chatClient_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "/home/wy/Qt/6.5.3/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/wy/project/chatServer/build/src/qtClient/CMakeFiles/chatClient_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/wy/project/chatServer/src/qtClient/Resource.qrc",
+	"VERBOSITY" : 0
+}
